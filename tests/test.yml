@@ -6,11 +6,12 @@
     - ansible-role-template
 
   tasks:
-    - name: check if xinetd exists
+    - name: check if /etc/xinetd.d exists
       stat:
         path: /etc/xinetd.d
       register: stat_xinetd
 
-  - fail:
-    msg: "/etc/xinetd.d does not exist"
-    when: stat_xinetd.stat.isdir == false
+    - name: fail if /etc/xinetd.d does not exist
+      fail:
+        msg: "/etc/xinetd.d does not exist"
+      when: stat_xinetd.stat.isdir == false
