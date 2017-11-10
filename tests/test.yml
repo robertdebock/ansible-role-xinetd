@@ -1,0 +1,16 @@
+---
+- hosts: localhost
+  remote_user: root
+
+  roles:
+    - ansible-role-template
+
+  tasks:
+    - name: check if xinetd exists
+      stat:
+        path: /etc/xinetd.d
+      register: stat_xinetd
+
+  - fail:
+    msg: "/etc/xinetd.d does not exist"
+    when: stat_xinetd.stat.isdir == false
