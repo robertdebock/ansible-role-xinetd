@@ -3,7 +3,7 @@
   remote_user: root
 
   roles:
-    - ansible-role-template
+    - ansible-role-xinetd
 
   tasks:
     - name: check if /etc/xinetd.d exists
