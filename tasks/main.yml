@@ -9,16 +9,16 @@
     - "default.yml"
 
 - name: install software
- package:
-   name: "{{ item }}"
-   state: latest
- with_items:
-   - "{{ packages }}"
+  package:
+    name: "{{ item }}"
+    state: latest
+  with_items:
+    - "{{ packages }}"
 
 - name: start and enable software
- service:
-   name: "{{ item }}"
-   state: started
-   enabled: yes
- with_items:
-   - "{{ services }}"
+  service:
+    name: "{{ item }}"
+    state: started
+    enabled: yes
+  with_items:
+    - "{{ services }}"
