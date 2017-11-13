@@ -1,12 +1,12 @@
 xinetd
 =========
 
-Provides xinetd.
+Provides xinetd for your system.
 
 Requirements
 ------------
 
-Access to a repository that provides the xinetd package.
+Access to a repository containing packages, likely on the internet.
 
 Role Variables
 --------------
@@ -23,8 +23,13 @@ Example Playbook
 
 ```
 - hosts: servers
+
   roles:
     - robertdebock.xinetd
+
+  tasks:
+    - name: likely nothing but include other roles, like robertdebock.tftpd
+      ping:
 ```
 
 License

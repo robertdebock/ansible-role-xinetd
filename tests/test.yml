@@ -6,7 +6,7 @@
     - ansible-role-xinetd
 
   tasks:
-    - name: check if /etc/xinetd.d exists
+    - name: register the status of /etc/xinetd.d
       stat:
         path: /etc/xinetd.d
       register: stat_xinetd
