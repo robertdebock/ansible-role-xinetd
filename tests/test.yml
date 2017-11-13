@@ -3,7 +3,7 @@
   remote_user: root
 
   roles:
-    - ansible-role-xinetd
+    - xinetd
 
   tasks:
     - name: register the status of /etc/xinetd.d
