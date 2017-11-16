@@ -10,15 +10,11 @@
 
 - name: install software
   package:
-    name: "{{ item }}"
+    name: xinetd
     state: latest
-  with_items:
-    - "{{ packages }}"
 
 - name: start and enable software
   service:
-    name: "{{ item }}"
+    name: xinetd
     state: started
     enabled: yes
-  with_items:
-    - "{{ services }}"
