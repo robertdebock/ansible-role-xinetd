@@ -1,4 +1,4 @@
-xinetd
+ansible-role-xinetd
 =========
 
 Provides xinetd for your system.
@@ -16,7 +16,7 @@ None known.
 Dependencies
 ------------
 
-- robertdebock.bootstrap
+- robertdebock.ansible-role-bootstrap
 
 Example Playbook
 ----------------
@@ -25,11 +25,8 @@ Example Playbook
 - hosts: servers
 
   roles:
-    - robertdebock.xinetd
+    - robertdebock.ansible-role-xinetd
 
-  tasks:
-    - name: likely nothing but include other roles, like robertdebock.tftpd
-      ping:
 ```
 
 License
