@@ -1,3 +1,4 @@
+---
 galaxy_info:
   author: Robert de Bock
   description: Provides xinetd for your system.
