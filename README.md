@@ -20,7 +20,7 @@ Dependencies
 
 - robertdebock.ansible-role-bootstrap
 
-Download the dependencies by issueing this command:
+Download the dependencies by issuing this command:
 ```
 ansible-galaxy install --role-file requirements.yml
 ```
@@ -32,9 +32,11 @@ Example Playbook
 - hosts: servers
 
   roles:
-    - ansible-role-xinetd
+    - robertdebock.ansible-role-xinetd
 
 ```
+
+Install this role using `galaxy install robertdebock.ansible-role-xinetd`.
 
 License
 -------
