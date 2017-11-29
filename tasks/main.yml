@@ -1,5 +1,5 @@
 ---
-# tasks file for ansible-role-xinetd
+# tasks file for xinetd
 - name: install software
   package:
     name: xinetd

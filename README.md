@@ -1,7 +1,7 @@
-ansible-role-xinetd
+xinetd
 =========
 
-[![Build Status](https://travis-ci.org/robertdebock/ansible-role-xinetd.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-xinetd)
+[![Build Status](https://travis-ci.org/robertdebock.ansible-role-xinetd.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-xinetd)
 
 Provides xinetd for your system.
 
@@ -18,7 +18,7 @@ None known.
 Dependencies
 ------------
 
-- robertdebock.ansible-role-bootstrap
+- robertdebock.bootstrap
 
 Download the dependencies by issuing this command:
 ```
@@ -32,11 +32,11 @@ Example Playbook
 - hosts: servers
 
   roles:
-    - robertdebock.ansible-role-xinetd
+    - robertdebock.xinetd
 
 ```
 
-Install this role using `galaxy install robertdebock.ansible-role-xinetd`.
+Install this role using `galaxy install robertdebock.xinetd`.
 
 License
 -------
