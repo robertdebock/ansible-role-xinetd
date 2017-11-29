@@ -1,7 +1,7 @@
 xinetd
 =========
 
-[![Build Status](https://travis-ci.org/robertdebock.ansible-role-xinetd.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-xinetd)
+[![Build Status](https://travis-ci.org/robertdebock/ansible-role-xinetd.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-xinetd)
 
 Provides xinetd for your system.
 
