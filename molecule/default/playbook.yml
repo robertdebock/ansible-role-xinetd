@@ -4,4 +4,4 @@
   gather_facts: no
 
   roles:
-    - role: ansible-role-xinetd
+    - role: robertdebock.xinetd
