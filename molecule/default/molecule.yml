@@ -8,12 +8,20 @@ driver:
 lint:
   name: yamllint
 platforms:
+  - name: xinetd-archlinux
+    image: base/archlinux
+  - name: xinetd-alpine-3.6
+    image: alpine:3.6
+  - name: xinetd-alpine-3.7
+    image: alpine:3.7
   - name: xinetd-centos-6
     image: centos:6
   - name: xinetd-centos-7
     image: centos:7
   - name: xinetd-debian-jessie
     image: debian:jessie
+  - name: xinetd-debian-stretch
+    image: debian:stretch
   - name: xinetd-debian-buster
     image: debian:buster
   - name: xinetd-fedora-26
@@ -24,8 +32,13 @@ platforms:
     image: opensuse:42.2
   - name: xinetd-opensuse-42.3
     image: opensuse:42.3
-  - name: xinetd-ubuntu-zesty
-    image: ubuntu:zesty
+    # 14.04 LTS
+  - name: xinetd-ubuntu-trusty
+    image: ubuntu:trusty
+    # 16.04 LTS
+  - name: xinetd-ubuntu-xenial
+    image: ubuntu:xenial
+    # 17.04
   - name: xinetd-ubuntu-artful
     image: ubuntu:artful
 provisioner:
