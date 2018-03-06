@@ -18,6 +18,8 @@ None known.
 Dependencies
 ------------
 
+You can prepare your system by using this role:
+
 - robertdebock.bootstrap
 
 Download the dependencies by issuing this command:
@@ -32,7 +34,8 @@ Example Playbook
 - hosts: servers
 
   roles:
-    - robertdebock.xinetd
+    - role: robertdebock.bootstrap
+    - role: robertdebock.xinetd
 
 ```
 
