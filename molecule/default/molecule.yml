@@ -28,15 +28,10 @@ platforms:
     image: opensuse:42.2
   - name: xinetd-opensuse-42.3
     image: opensuse:42.3
-    # 14.04 LTS
-  - name: xinetd-ubuntu-trusty
-    image: ubuntu:trusty
-    # 16.04 LTS
-  - name: xinetd-ubuntu-xenial
-    image: ubuntu:xenial
-    # 17.04
   - name: xinetd-ubuntu-artful
     image: ubuntu:artful
+  - name: xinetd-ubuntu-bionic
+    image: ubuntu:bionic
 provisioner:
   name: ansible
   lint:
