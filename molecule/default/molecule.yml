@@ -20,10 +20,10 @@ platforms:
     image: debian:stretch
   - name: xinetd-debian-buster
     image: debian:buster
-  - name: xinetd-fedora-26
-    image: fedora:26
   - name: xinetd-fedora-27
     image: fedora:27
+  - name: xinetd-fedora-28
+    image: fedora:28
   - name: xinetd-opensuse-42.2
     image: opensuse:42.2
   - name: xinetd-opensuse-42.3
