@@ -43,16 +43,16 @@ This role has been tested against the following distributions and Ansible versio
 |------------|-----------|-----------|-----------|
 |archlinux|yes|yes|yes|
 |centos-6|yes|yes|yes|
-|centos-7|yes|yes|yes|
-|debian-buster|yes|yes|yes|
-|debian-stretch|yes|yes|yes|
+|centos-latest|yes|yes|yes|
+|debian-stable|yes|yes|yes|
+|debian-latest|yes|yes|yes|
 |debian-wheezy|yes|yes|yes|
-|fedora-27|yes|yes|yes|
-|fedora-28|yes|yes|yes|
-|opensuse-42.2|yes|yes|yes|
-|opensuse-42.3|yes|yes|yes|
+|fedora-latest|yes|yes|yes|
+|fedora-rawhide|yes|yes|yes|
+|opensuse-leap|yes|yes|yes|
+|opensuse-tumbleweed|yes|yes|yes|
 |ubuntu-artful|yes|yes|yes|
-|ubuntu-bionic|yes|yes|yes|
+|ubuntu-latest|yes|yes|yes|
 
 Example Playbook
 ----------------
