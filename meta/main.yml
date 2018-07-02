@@ -41,10 +41,10 @@ galaxy_info:
     - networking
     - system
     - installer
-    - CentOS
-    - Debian
-    - Fedora
-    - RHEL
-    - Ubuntu
+    - centos
+    - debian
+    - fedora
+    - rhel
+    - ubuntu
 
 dependencies: []
