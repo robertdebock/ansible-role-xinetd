@@ -3,7 +3,6 @@
 - name: install software
   package:
     name: xinetd
-    state: present
 
 - name: start and enable software
   service:
