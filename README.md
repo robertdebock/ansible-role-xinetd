@@ -27,7 +27,7 @@ Dependencies
 
 You can prepare your system by using this role:
 
-- [robertdebock.bootstrap](https://travis-ci.org/robertdebock/ansible-role-bootstrap)
+- [robertdebock.bootstrap](https://galaxy.ansible.com/robertdebock/bootstrap)
 
 Download the dependencies by issuing this command:
 ```
