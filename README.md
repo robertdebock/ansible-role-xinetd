@@ -3,8 +3,7 @@ xinetd
 
 [![Build Status](https://travis-ci.org/robertdebock/ansible-role-xinetd.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-xinetd)
 
-Provides xinetd for your system.
-
+The purpose of this role is to install and configure xinetd on your system.
 
 Example Playbook
 ----------------
