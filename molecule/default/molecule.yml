@@ -34,8 +34,10 @@ platforms:
     image: opensuse:leap
   - name: xinetd-opensuse-tumbleweed
     image: opensuse:tumbleweed
-  - name: xinetd-ubuntu-artful
-    image: ubuntu:artful
+  - name: xinetd-ubuntu-latest
+    image: ubuntu:latest
+  - name: xinetd-ubuntu-rolling
+    image: ubuntu:rolling
   - name: xinetd-ubuntu-devel
     image: ubuntu:devel
   - name: xinetd-ubuntu-latest
