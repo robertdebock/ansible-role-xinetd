@@ -32,8 +32,6 @@ platforms:
     image: fedora:rawhide
   - name: xinetd-opensuse-leap
     image: opensuse:leap
-  - name: xinetd-opensuse-tumbleweed
-    image: opensuse:tumbleweed
   - name: xinetd-ubuntu-latest
     image: ubuntu:latest
   - name: xinetd-ubuntu-rolling
