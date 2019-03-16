@@ -5,4 +5,4 @@
     name: xinetd
     state: restarted
   when:
-    - ansible_virtualization_type != "docker" or xinetd_ignore_docker
+    - ansible_virtualization_type != "docker"
