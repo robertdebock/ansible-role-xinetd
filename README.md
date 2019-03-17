@@ -13,13 +13,23 @@ This example is taken from `molecule/default/playbook.yml`:
 ---
 - name: Converge
   hosts: all
-  become: true
-  gather_facts: false
+  become: yes
+  gather_facts: yes
+
+  roles:
+    - robertdebock.xinetd
+```
+
+The machine you are running this on, may need to be prepared. Tests have been done on machines prepared by this playbook:
+```yaml
+---
+- name: Prepare
+  hosts: all
+  become: yes
+  gather_facts: no
 
   roles:
     - robertdebock.bootstrap
-    - robertdebock.xinetd
-
 ```
 
 Also see a [full explanation and example](https://robertdebock.nl/how-to-use-these-roles.html) on how to use these roles.
@@ -31,15 +41,6 @@ These variables are set in `defaults/main.yml`:
 ```yaml
 ---
 # defaults file for xinetd
-
-# To update all packages installed by this roles, set `xinetd_package_state` to `latest`.
-xinetd_package_state: present
-
-# Some Docker containers do not allow managing services, rebooting and writing
-# to some locations in /etc. The role skips tasks that will typically fail in
-# Docker. With this parameter you can tell the role to -not- skip these tasks.
-xinetd_ignore_docker: yes
-
 ```
 
 Requirements
