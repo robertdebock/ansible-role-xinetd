@@ -30,17 +30,11 @@ galaxy_info:
         - bionic
 
   galaxy_tags:
-    - archlinux
-    - centos
     - daemon
-    - debian
-    - fedora
     - installer
     - networking
-    - rhel
-    - opensuse
     - system
-    - ubuntu
     - xinetd
+    - centos
 
 dependencies: []
