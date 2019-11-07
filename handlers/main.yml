@@ -1,0 +1,6 @@
+---
+# handlers file for xinetd
+- name: restart xinetd
+  service:
+    name: xinetd
+    state: restarted
