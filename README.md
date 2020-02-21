@@ -1,18 +1,16 @@
 xinetd
 =========
 
-<img src="https://docs.ansible.com/ansible-tower/3.2.4/html_ja/installandreference/_static/images/logo_invert.png" width="10%" height="10%" alt="Ansible logo" align="right"/>
+Install and configure xinetd on your system.
 
 |Travis|GitHub|Quality|Downloads|
 |------|------|-------|---------|
 |[![travis](https://travis-ci.org/robertdebock/ansible-role-xinetd.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-xinetd)|[![github](https://github.com/robertdebock/ansible-role-xinetd/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-xinetd/actions)|![quality](https://img.shields.io/ansible/quality/21856)|![downloads](https://img.shields.io/ansible/role/d/21856)|
 
-Install and configure xinetd on your system.
-
 Example Playbook
 ----------------
 
-This example is taken from `molecule/resources/playbook.yml` and is tested on each push, pull request and release.
+This example is taken from `molecule/resources/converge.yml` and is tested on each push, pull request and release.
 ```yaml
 ---
 - name: Converge
@@ -24,7 +22,7 @@ This example is taken from `molecule/resources/playbook.yml` and is tested on ea
     - robertdebock.xinetd
 ```
 
-The machine you are running this on, may need to be prepared, I use this playbook to ensure everything is in place to let the role work.
+The machine may need to be prepared using `molecule/resources/prepare.yml`:
 ```yaml
 ---
 - name: Prepare
@@ -36,7 +34,7 @@ The machine you are running this on, may need to be prepared, I use this playboo
     - robertdebock.bootstrap
 ```
 
-After running this role, this playbook runs to verify that everything works, this may be a good example how you can use this role.
+For verification `molecule/resources/verify.yml` run after the role has been applied.
 ```yaml
 ---
 - name: Verify
