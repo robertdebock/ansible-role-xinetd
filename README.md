@@ -2,9 +2,9 @@
 
 Install and configure xinetd on your system.
 
-|Travis|GitHub|Quality|Downloads|
-|------|------|-------|---------|
-|[![travis](https://travis-ci.com/robertdebock/ansible-role-xinetd.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-xinetd)|[![github](https://github.com/robertdebock/ansible-role-xinetd/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-xinetd/actions)|[![quality](https://img.shields.io/ansible/quality/21856)](https://galaxy.ansible.com/robertdebock/xinetd)|[![downloads](https://img.shields.io/ansible/role/d/21856)](https://galaxy.ansible.com/robertdebock/xinetd)|
+|Travis|GitHub|Quality|Downloads|Version|
+|------|------|-------|---------|-------|
+|[![travis](https://travis-ci.com/robertdebock/ansible-role-xinetd.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-xinetd)|[![github](https://github.com/robertdebock/ansible-role-xinetd/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-xinetd/actions)|[![quality](https://img.shields.io/ansible/quality/21856)](https://galaxy.ansible.com/robertdebock/xinetd)|[![downloads](https://img.shields.io/ansible/role/d/21856)](https://galaxy.ansible.com/robertdebock/xinetd)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-xinetd.svg)](https://github.com/robertdebock/ansible-role-xinetd/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
