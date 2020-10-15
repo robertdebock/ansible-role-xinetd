@@ -5,3 +5,4 @@
 repository:
   description: Install and configure xinetd on your system.
   homepage: https://robertdebock.nl/
+  topics: daemon, installer, networking, system, xinetd, ansible, molecule, tox, playbook, hacktoberfest
