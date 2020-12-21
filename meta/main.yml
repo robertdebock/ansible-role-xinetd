@@ -17,11 +17,11 @@ galaxy_info:
         - 8
     - name: Debian
       versions:
-        - buster
-        - bullseye
+        - all
     - name: Fedora
       versions:
-        - all
+        - 32
+        - 33
     - name: OpenSUSE
       versions:
         - all
