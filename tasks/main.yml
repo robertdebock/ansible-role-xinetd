@@ -2,12 +2,12 @@
 # tasks file for xinetd
 
 - name: install software
-  package:
+  ansible.builtin.package:
     name: xinetd
     state: present
 
 - name: start and enable software
-  service:
+  ansible.builtin.service:
     name: xinetd
     state: started
     enabled: yes
