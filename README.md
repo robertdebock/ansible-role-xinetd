@@ -1,4 +1,4 @@
-# Ansible role [xinetd](#xinetd)
+# [Ansible role xinetd](#xinetd)
 
 Install and configure xinetd on your system.
 
