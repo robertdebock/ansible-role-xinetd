@@ -1,5 +1,7 @@
 # [Ansible role xinetd](#xinetd)
 
+> THIS ROLE HAS BEEN ARCHIVED AS OF DEC 2023.
+
 Install and configure xinetd on your system.
 
 |GitHub|GitLab|Downloads|Version|
